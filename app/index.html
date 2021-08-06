@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Houseplant-Demo</title>
+    <style>
+      
+      body {
+          background-color:rgb(73, 99, 61);
+      }
+      h1 {
+          position: relative;
+          color: white;
+          text-align: center;
+          font-size: 5vh;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      h3 {
+          position: relative;
+          color: rgb(112, 146, 110);
+          text-align: center;
+          font-size: 4vh;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      iframe {
+          position: relative;
+          width: 50%;
+          height: 75vh;
+          float: left;
+          color: seashell;
+      }
+      #information {
+          background-color:seashell;
+          opacity: 0.6;
+          border-radius: 25px;
+          width: 45%;
+          height: 75vh;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: large;
+          float: right;
+          text-align: center;
+      }
+      #myform {
+          background-color:seashell;
+          text-align: center;
+          color:rgb(62, 88, 47);
+          border-radius: 25px;
+          font-family:Arial, Helvetica, sans-serif;
+      }
+    
+
+  </style>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://www.pikpng.com/pngl/m/13-136201_pot-plant-clipart-many-plant-potted-plants-icon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+      <div id="main">
+        <!-- the Demo app will be in here! -->
+        
+      </div>
+     <section>
+        <iframe
+                src="[PUT DEFAULT SHORTURL HERE]"
+                allow="camera *"
+                id="iframe">
+        </iframe>
+        <div id="information">
+          <br>
+          <div id="background">
+            Answer the questions above to get your plant!
+          </div>
+          <a id = "mylink" href=""> More info!</a>
+          <div id = "QR">
+          <h2> Try it out in your home! </h2>
+          <img id = "QRbox" src="[PUT DEFAULT QR CODE HERE]" />
+          </div>
+        </div>
+      </section> 
+      <!-- bundle all the scripts! thanks to webpack -->
+      <script type="text/javascript" src="/bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "starter-react",
+  "version": "0.0.1",
+  "description": "A small scaffold to get you started using React with Webpack",
+  "main": "server.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack && node server.js",
+    "watch": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-iframe": "^1.8.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/starter-react"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ],
+  "author": ""
+}
