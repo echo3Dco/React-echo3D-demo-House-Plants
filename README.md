@@ -1,4 +1,4 @@
-# echoAR-Houseplant-Demo
+# React-echoAR-demo-House-Plants
 React demo with echoAR.  Answer a few short questions to find a houseplant match, learn some info, and receive a QR code to see the plant in AR in your home!
 
 ## Register
@@ -19,23 +19,25 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://www.ec
 These are the models we used : 
 (Filename Author)
   
-Anthurium.glb thesidekick
+- Anthurium.glb thesidekick
   
-Chinese Money Plant.glb daniel
+- Chinese Money Plant.glb daniel
   
-Umbrella palm tree.glb  Poly by Google
+- Umbrella palm tree.glb  Poly by Google
   
-ZZ Plant.glb Jack Irwin Miller
+- ZZ Plant.glb Jack Irwin Miller
   
-Bonsai Tree.glb zacharyfrs
+- Bonsai Tree.glb zacharyfrs
   
-Orchid.glb Poly by Google
+- Orchid.glb Poly by Google
   
-Snake Plant (Highest Resolution, Unbounded).glb legel
+- Snake Plant (Highest Resolution, Unbounded).glb legel
 
-8. Copy the links of the QRImage links, and place them into the "findplantInfo" function in [PlantForm.jsx]. 
-9. Once the houseplant models are added, copy the short URL generated for each model and use them to replace the ```[shortUrl]``` in the "findplantInfo" function [PlantForm.jsx]
-10. Choose a plant to be your default and copy its QRImage link and shortURL into [index.html]
+7. Copy the links of the QRImage links, and place them into the "findplantInfo" function in [PlantForm.jsx].
+
+8. Once the houseplant models are added, copy the short URL generated for each model and use them to replace the ```[shortUrl]``` in the "findplantInfo" function [PlantForm.jsx]
+
+9. Choose a plant to be your default and copy its QRImage link and shortURL into [index.html]
 
 ## Run
 1. In terminal, enter ```npm start``` to serve the application on a local host. The terminal will display a port number that you can use in the next steps
