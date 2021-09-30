@@ -1,11 +1,11 @@
-# React-echoAR-demo-House-Plants
-React demo with echoAR.  Answer a few short questions to find a houseplant match, learn some info, and receive a QR code to see the plant in AR in your home!
+# React-echo3D-demo-House-Plants
+React demo with echo3D.  Answer a few short questions to find a houseplant match, learn some info, and receive a QR code to see the plant in AR in your home!
 
 ## Register
-Don't have an API key? Make sure to register for FREE at [echoAR](https://www.echoar.xyz/).
+Don't have an API key? Make sure to register for FREE at [echo3D](https://www.echo3D.co/).
 
 ## Setup
-1. Clone [echoAR-Houseplant-Demo](https://github.com/samia-mnn/echoAR-Houseplant-Demo/)
+1. Clone [React-echo3D-demo-House-Plants](https://github.com/echo3Dco/React-echo3D-demo-House-Plants/)
 2. Download [Node and Node Package Manager(npm)](https://nodejs.org/en/)
 3. [Download and set up ngrok](https://ngrok.com/download)
 
@@ -13,8 +13,8 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://www.ec
 4. In the terminal, navigate to the ```echoAR-Houseplant-Demo/``` directory and enter ```$ npm init```
 5. Next, enter ```$ npm install express react react-dom``` to install relevant packages
 
-### echoAR Console
-6. Add each of the houseplants to your echoAR console. Use the search function and type in the plant name to find the model you would like to use for each plant.
+### echo3D Console
+6. Add each of the houseplants to your echo3D console. Use the search function and type in the plant name to find the model you would like to use for each plant.
 
 These are the models we used : 
 (Filename Author)
@@ -46,10 +46,10 @@ These are the models we used :
 
 
 ## Learn More
-Refer to our [documentation](https://docs.echoar.xyz/unity/) to learn more about how to use Unity and echoAR.
+Refer to our [documentation](https://docs.echo3D.co/unity/) to learn more about how to use Unity and echo3D.
 
 ## Support
-Feel free to reach out at [support@echoAR.xyz](support@echoAR.xyz) or join our [support channel on Slack](https://join.slack.com/t/echoar/shared_invite/enQtNTg4NjI5NjM3OTc1LWU1M2M2MTNlNTM3NGY1YTUxYmY3ZDNjNTc3YjA5M2QyNGZiOTgzMjVmZWZmZmFjNGJjYTcxZjhhNzk3YjNhNjE).
+Feel free to reach out at [support@echo3D.co](support@echo3D.co) or join our [support channel on Slack](https://go.echo3D.co/join).
 
 ## Screenshots
 ![Demo Bonsai](images/bonsai.JPG)
